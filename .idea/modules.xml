@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/my-project-common/my-project-common.iml" filepath="$PROJECT_DIR$/my-project-common/my-project-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-project-eureka-server/my-project-eureka-server.iml" filepath="$PROJECT_DIR$/my-project-eureka-server/my-project-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-project-service/my-project-service.iml" filepath="$PROJECT_DIR$/my-project-service/my-project-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-project-web/my-project-web.iml" filepath="$PROJECT_DIR$/my-project-web/my-project-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/myteam-shop.iml" filepath="$PROJECT_DIR$/.idea/myteam-shop.iml" />
+    </modules>
+  </component>
+</project>
