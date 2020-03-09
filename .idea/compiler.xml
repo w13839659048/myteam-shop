@@ -6,14 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="my-project-common" />
         <module name="my-project-service" />
         <module name="my-project-web" />
         <module name="my-project-eureka-server" />
+        <module name="my-project-entity" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="my-project-common" target="1.8" />
+      <module name="my-project-entity" target="1.8" />
       <module name="my-project-eureka-server" target="1.8" />
       <module name="my-project-service" target="1.8" />
       <module name="my-project-web" target="1.8" />

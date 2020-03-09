@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/my-project-common/my-project-common.iml" filepath="$PROJECT_DIR$/my-project-common/my-project-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-project-common/my-project-entity/my-project-entity.iml" filepath="$PROJECT_DIR$/my-project-common/my-project-entity/my-project-entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-project-eureka-server/my-project-eureka-server.iml" filepath="$PROJECT_DIR$/my-project-eureka-server/my-project-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-project-service/my-project-service.iml" filepath="$PROJECT_DIR$/my-project-service/my-project-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-project-web/my-project-web.iml" filepath="$PROJECT_DIR$/my-project-web/my-project-web.iml" />
