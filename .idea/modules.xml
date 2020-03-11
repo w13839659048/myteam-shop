@@ -11,6 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/my-project-service/my-project-regist-service/my-project-regist-service.iml" filepath="$PROJECT_DIR$/my-project-service/my-project-regist-service/my-project-regist-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-project-web/my-project-regist-web/my-project-regist-web.iml" filepath="$PROJECT_DIR$/my-project-web/my-project-regist-web/my-project-regist-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-project-service/my-project-service.iml" filepath="$PROJECT_DIR$/my-project-service/my-project-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-project-web/my-project-sso-web/my-project-sso-web.iml" filepath="$PROJECT_DIR$/my-project-web/my-project-sso-web/my-project-sso-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-project-service/my-project-user-service/my-project-user-service.iml" filepath="$PROJECT_DIR$/my-project-service/my-project-user-service/my-project-user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-project-web/my-project-web.iml" filepath="$PROJECT_DIR$/my-project-web/my-project-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/myteam-shop.iml" filepath="$PROJECT_DIR$/.idea/myteam-shop.iml" />
     </modules>

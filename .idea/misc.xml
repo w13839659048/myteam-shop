@@ -13,6 +13,8 @@
         <option value="$PROJECT_DIR$/my-project-service/my-project-email-service/pom.xml" />
         <option value="$PROJECT_DIR$/my-project-web/my-project-regist-web/pom.xml" />
         <option value="$PROJECT_DIR$/my-project-service/my-project-regist-service/pom.xml" />
+        <option value="$PROJECT_DIR$/my-project-service/my-project-user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/my-project-web/my-project-sso-web/pom.xml" />
       </list>
     </option>
   </component>
