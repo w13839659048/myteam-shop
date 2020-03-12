@@ -34,8 +34,8 @@ public class EmailController {
     @Value("${activeServerUrl}")
     private String activeServerUrl;
 
-    @RequestMapping("send/{addr}/{uuid}")
-    public ResultBean sendEmail(@PathVariable String addr,@PathVariable String uuid) {
+    @RequestMapping("send")
+    public ResultBean sendEmail(String email, String uuid) {
 
         MimeMessage message = sender.createMimeMessage();
         MimeMessageHelper mailMessage=null;
@@ -45,7 +45,7 @@ public class EmailController {
             mailMessage.setSubject("激活您的账号");
 
             Context context= new Context();
-            context.setVariable("username",addr.substring(0,addr.lastIndexOf('@')));
+            context.setVariable("username",email.substring(0,email.lastIndexOf('@')));
             context.setVariable("url",activeServerUrl+uuid);
 
             String info = templateEngine.process("emailTemplate", context);
@@ -53,7 +53,7 @@ public class EmailController {
             mailMessage.setText(info,true);
 
             mailMessage.setFrom("1554909254@qq.com");//系统账号
-            mailMessage.setTo(addr);
+            mailMessage.setTo(email);
 
             sender.send(message);
 

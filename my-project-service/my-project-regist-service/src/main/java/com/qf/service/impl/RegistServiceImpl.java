@@ -14,9 +14,9 @@ public class RegistServiceImpl implements IRegistService {
     private TUserMapper mapper;
 
     @Override
-    public ResultBean regist(String uname, String password) {
+    public ResultBean regist(String email, String password) {
         TUser user = new TUser();
-        user.setUname(uname);
+        user.setUname(email);
         user.setPassword(password);
         mapper.insert(user);
         return ResultBean.success("注册成功");

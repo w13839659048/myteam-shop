@@ -9,13 +9,12 @@
         <module name="my-project-web" />
         <module name="my-project-entity" />
         <module name="my-project-sso-web" />
-        <module name="my-project-user-service" />
+        <module name="my-project-service" />
         <module name="my-project-eureka-server" />
         <module name="my-project-mapper" />
         <module name="my-project-basic" />
-        <module name="my-project-service" />
+        <module name="my-project-user-service" />
         <module name="my-project-regist-service" />
-        <module name="my-project-regist-web" />
         <module name="my-project-email-service" />
       </profile>
     </annotationProcessing>

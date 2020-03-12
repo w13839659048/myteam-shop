@@ -15,9 +15,9 @@ public class RegistController {
     @Autowired
     private IRegistService iRegistService;
 
-    @RequestMapping("regist/{uname}/{password}")
-    public ResultBean regist(@PathVariable String uname, @PathVariable String password){
-        return iRegistService.regist(uname,password);
+    @RequestMapping("regist")
+    public ResultBean regist(String email, String password){
+        return iRegistService.regist(email,password);
     }
 
 }
