@@ -14,6 +14,8 @@
         <option value="$PROJECT_DIR$/my-project-service/my-project-regist-service/pom.xml" />
         <option value="$PROJECT_DIR$/my-project-service/my-project-user-service/pom.xml" />
         <option value="$PROJECT_DIR$/my-project-web/my-project-sso-web/pom.xml" />
+        <option value="$PROJECT_DIR$/my-project-web/my-project-cart-web/pom.xml" />
+        <option value="$PROJECT_DIR$/my-project-service/my-project-cart-service/pom.xml" />
       </list>
     </option>
   </component>

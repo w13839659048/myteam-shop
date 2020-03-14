@@ -9,17 +9,21 @@
         <module name="my-project-web" />
         <module name="my-project-entity" />
         <module name="my-project-sso-web" />
-        <module name="my-project-service" />
+        <module name="my-project-user-service" />
         <module name="my-project-eureka-server" />
         <module name="my-project-mapper" />
+        <module name="my-project-cart-service" />
         <module name="my-project-basic" />
-        <module name="my-project-user-service" />
+        <module name="my-project-service" />
         <module name="my-project-regist-service" />
+        <module name="my-project-cart-web" />
         <module name="my-project-email-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="my-project-basic" target="1.8" />
+      <module name="my-project-cart-service" target="1.8" />
+      <module name="my-project-cart-web" target="1.8" />
       <module name="my-project-common" target="1.8" />
       <module name="my-project-email-service" target="1.8" />
       <module name="my-project-entity" target="1.8" />
@@ -35,6 +39,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="my-project-cart-service" options="-parameters" />
+      <module name="my-project-cart-web" options="-parameters" />
       <module name="my-project-email-service" options="-parameters" />
       <module name="my-project-eureka-server" options="-parameters" />
       <module name="my-project-regist-service" options="-parameters" />

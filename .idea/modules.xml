@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/my-project-common/my-project-basic/my-project-basic.iml" filepath="$PROJECT_DIR$/my-project-common/my-project-basic/my-project-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-project-service/my-project-cart-service/my-project-cart-service.iml" filepath="$PROJECT_DIR$/my-project-service/my-project-cart-service/my-project-cart-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-project-web/my-project-cart-web/my-project-cart-web.iml" filepath="$PROJECT_DIR$/my-project-web/my-project-cart-web/my-project-cart-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-project-common/my-project-common.iml" filepath="$PROJECT_DIR$/my-project-common/my-project-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-project-service/my-project-email-service/my-project-email-service.iml" filepath="$PROJECT_DIR$/my-project-service/my-project-email-service/my-project-email-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-project-common/my-project-entity/my-project-entity.iml" filepath="$PROJECT_DIR$/my-project-common/my-project-entity/my-project-entity.iml" />

@@ -6,6 +6,7 @@ package com.qf.controller;
 import com.qf.constant.CookieConstant;
 import com.qf.constant.RedisConstant;
 import com.qf.dto.ResultBean;
+import com.qf.util.HttpClientUtils;
 import com.qf.util.RedisUtil;
 import com.qf.util.StringUtil;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -45,7 +46,8 @@ public class LoginController {
 
 
     @RequestMapping("checkLogin")
-    public String checkLogin(String uname, String password, HttpServletResponse response) {
+    public String checkLogin(String uname, String password, HttpServletResponse response,
+                             @CookieValue(name = CookieConstant.USER_CART,required = false)String userCartUuid) {
        /* System.out.println(uname);
         System.out.println(password);*/
 
@@ -65,6 +67,19 @@ public class LoginController {
             cookie.setPath("/");
             cookie.setHttpOnly(true);
             response.addCookie(cookie);
+
+            String url1 = "http://localhost:7768/cart/merge";
+            StringBuilder sb = new StringBuilder();
+            sb.append(CookieConstant.USER_CART);
+            sb.append("=");
+            sb.append(userCartUuid);
+            sb.append(";");
+
+            sb.append(CookieConstant.USER_LOGIN);
+            sb.append("=");
+            sb.append(uuid);
+            HttpClientUtils.doGet(url1,sb.toString());
+
 
             return "redirect:http://localhost:7767";
 
